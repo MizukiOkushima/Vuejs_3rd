@@ -1,5 +1,6 @@
 <script setup>
 import ProductList from './components/ProductList.vue';
+import ShoppingChart from './components/ShoppingChart.vue';
 </script>
 <template>
     <div id="app">
@@ -7,6 +8,8 @@ import ProductList from './components/ProductList.vue';
         <hr />
         <h2>商品一覧</h2>
         <ProductList />
+        <hr />
+        <ShoppingChart />
     </div>
 </template>
 <style>
